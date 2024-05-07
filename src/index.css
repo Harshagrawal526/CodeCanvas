@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+}
+
+.top-pane {
+  background-color: #afb7cc;
+}
+
+.pane {
+  height: 50vh;
+  display: flex;
+}
+
+.editor-container {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  background-color: #b56a6a00;
+}
+
+.editor-container.collapsed {
+  flex-grow: 0;
+}
+
+.editor-container.collapsed .CodeMirror-scroll {
+  position: absolute;
+  overflow: hidden !important;
+}
+
+.expand-collapse-btn {
+  margin-left: .5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.editor-title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FF5100;
+  color: white;
+  padding: .5rem .5rem .5rem 1rem;
+  border-top-right-radius: .5rem;
+  border-top-left-radius: .5rem;
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.code-mirror-wrapper {
+  flex-grow: 1;
+  border-bottom-right-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+  overflow: hidden;
+}
+
+.app-logo{
+  height:30px;
+  border-radius: 1px;
+}
+
+.Home {
+  font-family: 'Fira Code', monospace;
+  /* background-color: #f5f5f5; */
+  margin: 0;
+  padding: 0;
+}
+
+.Home header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.Home header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.Home main {
+  background-color: rgb(176, 230, 176);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Home section {
+  border: 1px solid black;
+  text-align: center;
+  background-color: #caeef1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 50%;
+}
+.Home section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.Home.f{
+  background-color: #f7dbe4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 50%;
+}
+
+.Home ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Home li {
+  margin-bottom: 20px;
+}
+
+.Home li span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.Home li p {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+/* li img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+} */
+
+.Home button {
+  margin-bottom: 20px;
+  background-color: #007bff;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Home button:hover {
+  background-color: #0069d9;
+}
+
+.Home footer {
+  background-color: #333;
+  color: #fff;
+}
+
+.Home footer p{
+  margin: 0px;
+  font-size: 19px;
+}
+
+.Home.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Home.icon {
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.Home.icon img {
+  height: 150px;
+}
+
+.Home.text{
+  font-size: 20px;
+}
+.Home.image-container-html{
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./components/html.png);
+}
+.Home.image-container-css{
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./components/css.png);
+}
+.Home.image-container-js{
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./components/js.png);
+}
