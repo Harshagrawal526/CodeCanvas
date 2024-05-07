@@ -4,7 +4,7 @@ function Home({ val, fun }) {
   return (
     <div className='Home'>
     <header className='Home'>
-        <h1 className='Home'>Welcome to CodeEditor</h1>
+        <h1 className='Home'>Welcome to Code Canvas</h1>
         <p>A powerful online code editor for HTML, CSS, and JavaScript.</p>
     </header>
     <main className='Home'>
