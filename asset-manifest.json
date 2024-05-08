@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CodeCanvas/static/css/main.8d6686fe.css",
-    "main.js": "/CodeCanvas/static/js/main.d2e79a7f.js",
+    "main.css": "/CodeCanvas/static/css/main.00f2324a.css",
+    "main.js": "/CodeCanvas/static/js/main.2b9a7a48.js",
     "static/media/css.png": "/CodeCanvas/static/media/css.401087635a9ac14aff06.png",
     "static/media/js.png": "/CodeCanvas/static/media/js.266bd9fb2663dcc057b4.png",
     "static/media/img.svg": "/CodeCanvas/static/media/img.e1752c38f63281a5542c90e5afc85706.svg",
     "index.html": "/CodeCanvas/index.html",
-    "main.8d6686fe.css.map": "/CodeCanvas/static/css/main.8d6686fe.css.map",
-    "main.d2e79a7f.js.map": "/CodeCanvas/static/js/main.d2e79a7f.js.map"
+    "main.00f2324a.css.map": "/CodeCanvas/static/css/main.00f2324a.css.map",
+    "main.2b9a7a48.js.map": "/CodeCanvas/static/js/main.2b9a7a48.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d6686fe.css",
-    "static/js/main.d2e79a7f.js"
+    "static/css/main.00f2324a.css",
+    "static/js/main.2b9a7a48.js"
   ]
 }
