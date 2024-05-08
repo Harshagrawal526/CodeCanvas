@@ -4,19 +4,19 @@ function Home({ val, fun }) {
   return (
     <div className='Home'>
     <header className='Home'>
-        <h1 className='Home'>Welcome to Code Canvas</h1>
+        <h1 className='Home font-sans'>Welcome to Code Canvas</h1>
         <p>A powerful online code editor for HTML, CSS, and JavaScript.</p>
     </header>
     <main className='Home'>
         <section className="f Home">
-            <h2 className='Home'>Language Supported</h2>
+            <h2 className='Home'>Languages Supported</h2>
         <div className="icon-container Home">
             <div className="icon h Home"><div className='Home image-container-html'/><p className="text Home">HTML</p></div>
             <div className="icon Home"><div className='Home image-container-css'/><p className="text Home">CSS</p></div>
             <div className="icon Home"><div className='Home image-container-js'/><p className="text Home">JavaScript</p></div>
         </div>
         </section>
-        <button onClick={fun} id="start-editing" className='Home'>Start Editing</button>
+        <button onClick={fun} id="start-editing" className='Home animate-pulse cursor-pointer'>Start Editing</button>
         <section className='Home'>
             <h2>Features</h2>
             <ul className='Home'>
