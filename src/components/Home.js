@@ -29,8 +29,8 @@ function Home({ val, fun }) {
                     <p className='Home'>See your changes in real-time with a live preview of your HTML and CSS, and test your JavaScript with the built-in console. This helps you quickly identify and fix bugs, and ensures that your code is working as expected.</p>
                 </li>
                 <li className='Home'>
-                    <span className='Home'>Version Control with Git (coming soon)</span>
-                    <p className='Home'>Track changes to your code with version control, and collaborate with your team using Git (coming soon). Our version control feature allows you to easily revert to previous versions of your code, and helps you manage changes made by multiple team members.</p>
+                    <span className='Home'>User Authentication (coming soon)</span>
+                    <p className='Home'>Implement secure user login and account management functionality. Users can create accounts, log in securely, and personalize their experience. This feature enhances security and allows users to access exclusive content and track their activity on the platform.</p>
                 </li>
             </ul>
         </section>
