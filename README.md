@@ -81,3 +81,11 @@ code-canvas/
 ├── package.json
 └── vite.config.js
 ```
+
+## License
+
+MIT
+
+## Author
+
+Your Name

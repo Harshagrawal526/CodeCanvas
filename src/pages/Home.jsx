@@ -44,8 +44,8 @@ function Home() {
                             <p className='text-base text-[#220909e8]'>See your changes in real-time with a live preview of your HTML and CSS, and test your JavaScript with the built-in console. This helps you quickly identify and fix bugs, and ensures that your code is working as expected.</p>
                         </li>
                         <li className='mb-5 w-[30%] bg-[#c7c760] p-3 rounded-2xl'>
-                            <span className='block text-l font-bold text-[#333] mb-2.5'>User Authentication (coming soon)</span>
-                            <p className='text-base text-[#220909e8]'>Implement secure user login and account management functionality. Users can create accounts, log in securely, and personalize their experience. This feature enhances security and allows users to access exclusive content and track their activity on the platform.</p>
+                            <span className='block text-l font-bold text-[#333] mb-2.5'>Collapsible Editor Panels</span>
+                            <p className='text-base text-[#220909e8]'>Maximize your workspace by collapsing and expanding individual code editors. Focus on one language at a time or view all three simultaneously. The flexible layout adapts to your coding workflow, allowing you to dedicate more screen space to the code you're actively working on.</p>
                         </li>
                     </ul>
                 </section>
