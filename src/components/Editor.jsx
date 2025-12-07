@@ -20,7 +20,7 @@ export default function Editor(props) {
   return (
 
     <div className={`grow basis-0 flex flex-col bg-[#b56a6a00] p-2 ${open ? '' : 'grow-0'}`}>
-      <div className="flex justify-between bg-[#FF5100] text-[white] pl-4 pr-2 py-2 rounded-t-lg ">
+      <div className="flex justify-between bg-[#1e85ca] text-[white] pl-4 pr-2 py-2 rounded-t-lg ">
         {displayName}
         <button
           type="button"

@@ -61,7 +61,7 @@ code-canvas/
 │   └── icon.png
 ├── src/
 │   ├── assets/
-│   │   ├── background.gif
+│   │   ├── background.jpg
 │   │   ├── css.png
 │   │   ├── html.png
 │   │   ├── img.svg
@@ -88,4 +88,4 @@ MIT
 
 ## Author
 
-Your Name
+Harsh Agrawal
