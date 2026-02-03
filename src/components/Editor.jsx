@@ -1,10 +1,16 @@
 import React, { useState } from 'react'
-import 'codemirror/lib/codemirror.css'
-import 'codemirror/theme/material.css'
-import 'codemirror/mode/xml/xml'
-import 'codemirror/mode/javascript/javascript'
-import 'codemirror/mode/css/css'
-import { Controlled as ControlledEditor } from 'react-codemirror2'
+// import 'codemirror/lib/codemirror.css'
+// import 'codemirror/theme/material.css'
+import AceEditor from "react-ace";
+import "ace-builds/src-noconflict/theme-monokai";
+import "ace-builds/src-noconflict/ext-language_tools";
+import "ace-builds/src-noconflict/mode-html";
+import "ace-builds/src-noconflict/mode-css";
+import "ace-builds/src-noconflict/mode-javascript";
+// import 'codemirror/mode/xml/xml'
+// import 'codemirror/mode/javascript/javascript'
+// import 'codemirror/mode/css/css'
+// import { Controlled as ControlledEditor } from 'react-codemirror2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCompressAlt, faExpandAlt } from '@fortawesome/free-solid-svg-icons'
 
@@ -30,7 +36,7 @@ export default function Editor(props) {
           <FontAwesomeIcon icon={open ? faCompressAlt : faExpandAlt} />
         </button>
       </div>
-      <ControlledEditor
+      {/* <ControlledEditor
         onBeforeChange={handleChange}
         value={value}
         className="grow overflow-hidden rounded-br-lg rounded-bl-lg"
@@ -41,6 +47,16 @@ export default function Editor(props) {
           theme: 'material',
           lineNumbers: true
         }}
+      /> */}
+      <AceEditor
+        value={value}
+        mode={language}
+        theme="monokai"
+        onBeforeLoad={handleChange}
+        className="grow overflow-hidden rounded-br-lg rounded-bl-lg"
+        // onChange={onChange}
+        name="UNIQUE_ID_OF_DIV"
+        editorProps={{ $blockScrolling: true }}
       />
     </div>
   )
