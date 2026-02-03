@@ -30,7 +30,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <button className='bg-[#105888] font-semibold  text-white uppercase cursor-pointer  mb-5 px-5 py-2.5 rounded-full hover:bg-[#35a3ed]'> <Link to="/app">Start Editing</Link></button>
+                <button className='bg-[#105888] font-semibold  text-white uppercase cursor-pointer  mb-5 px-5 py-2.5 rounded-full hover:bg-[#2a81bb] transition-all duration-200'> <Link to="/app">Start Editing</Link></button>
                 <section className='text-center bg-[#556e7b] shadow-lg w-8/12 mb-5 p-5 rounded-2xl text-white'>
                     <h2 className='text-[28px] mb-5'>Features</h2>
                     <ul className='list-none flex justify-between w-full p-2'>

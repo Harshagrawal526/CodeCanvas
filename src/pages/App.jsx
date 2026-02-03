@@ -69,7 +69,7 @@ function App() {
           onChange={setJs}
         />
       </div >
-      <div className='bg-[#1e85ca] text-center border-[#e5e7eb]  border-4 rounded-xl text-xl '>OUTPUT</div>
+      <div className='bg-[#1e85ca] text-center text-white border-[#e5e7eb]  border-4 rounded-xl text-xl '>OUTPUT</div>
       <div className="h-[50vh] flex">
         <iframe
           srcDoc={srcDoc}
